@@ -6,3 +6,4 @@ sources/build/instance_ufos
 sources/.ninja_log
 sources/build.ninja
 *.glyphs
+test.html

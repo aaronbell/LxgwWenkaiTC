@@ -17,6 +17,7 @@ compress: venv
 	. venv/bin/activate; python3 sources/scripts/compress.py;
 
 merge:
+	rm -rf sources/build/instance_ufos
 	. venv/bin/activate; python3 sources/scripts/merge.py;
 
 export:
